@@ -1,0 +1,220 @@
+html body {
+    font-family: monospace;
+    text-transform: uppercase;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.img1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 51px !important;
+    padding: 3px 20px !important;
+}
+
+.hero {
+    height: 92vh;
+    ;
+}
+
+.container-wide {
+    width: 100%;
+}
+
+.discoverIt{
+    padding: 20px;
+}
+
+.exp-img1 {
+    width: 30%;
+    margin-top: 0em;
+    margin-left: 34%;
+    margin-bottom: 1.8em;
+}
+
+.exp-img2 {
+    width: 57%;
+    margin-top: 0em;
+    margin-left: 21%;
+}
+
+.exp-img3 {
+    width: 70%;
+    margin-top: 4.3em;
+    margin-left: 14%;
+    margin-bottom: 1.7em;
+}
+
+.no-pad {
+    margin-bottom: 0px !important;
+}
+
+.some-pad {
+    margin-top: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.f-wht {
+    color: white;
+}
+
+.exp-img4 {
+    width: 40%;
+    margin-top: 2.5em;
+    margin-left: 30%;
+    margin-bottom: -2.3em;
+}
+
+.exp-img5 {
+    width: 38%;
+    margin-top: 2em;
+    margin-left: 31%;
+    margin-bottom: -1.3em;
+}
+
+.img5 {
+    width: 100%;
+    height: 60vh;
+}
+
+.top-mar {
+    margin-top: 14em;
+    background-color: rgba(181, 181, 181, 0.43);
+    border-radius: 1rem;
+}
+
+.row-mar {
+    margin: 0 !important;
+}
+
+.foot-li {
+    display: inline-block;
+}
+
+.nav-dot {
+    font-weight: 900;
+}
+
+a.active1 {
+    background-color: turquoise !important;
+    color: white;
+}
+
+nav {
+    height: 4.3rem;
+}
+
+.color1 {
+    font-size: 1.3em;
+    color: teal;
+}
+
+.some-pad-2 {
+    padding: 4em;
+}
+
+#home1 {
+    margin-top: 50px
+}
+
+#home {
+    height: 100vh;
+}
+
+.back-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 2em;
+    height: 2em;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 48px solid #00caff;
+    border-radius: 32px;
+}
+
+.back-top:hover {
+    border-bottom: 48px solid #00ffdd;
+}
+
+.margin0 {
+    margin: 0 !important;
+}
+
+.padding0 {
+    padding: 0 !important;
+}
+
+.universeHeader {
+    background-color: turquoise;
+}
+
+.unicerseImg {
+    height: 422px;
+}
+
+.uniImg-1,
+.uniImg-2,
+.uniImg-3 {
+    height: 422px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 675px 422px;
+}
+
+.uniImg-1,
+.uniImg-3 {
+    background-position: 100% 50%;
+}
+
+.uniImg-2 {
+    background-position: 0% 50%;
+}
+
+.uniImg-1 {
+    background-image: url("../img/beautiful_universe.jpg");
+}
+
+.uniImg-2 {
+    background-image: url("../img/planet_galaxy_universe_121293_3840x2400.jpg");
+}
+
+.uniImg-3 {
+    background-image: url("../img/planets-4000x2294-cosmos-galaxy-4k-6351.jpg");
+}
+
+@media only screen and (min-width: 601px) {
+    .navbar-fixed {
+        height: 50px !important;
+    }
+}
+
+.navbar-fixed {
+    height: 50px !important;
+}
+
+@media only screen and (min-width: 601px) {
+
+    nav,
+    nav .nav-wrapper i,
+    nav a.sidenav-trigger,
+    nav a.sidenav-trigger i {
+        height: 50px !important;
+        line-height: 50px !important;
+    }
+}
+
+nav {
+    height: 50px !important;
+    line-height: 50px !important;
+}
+
+.slider.fullscreen ul.indicators{
+    bottom: 50px !important;
+}
